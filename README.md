@@ -15,7 +15,7 @@ WIN10 Python3.7
 项目依赖环境</br>
 1、爬虫</br>
 	Requests库
-		pip install requests
+		pip install requests</br>
 2、GUI</br>
 	PyQt5
 		pip install PyQt5
