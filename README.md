@@ -14,7 +14,7 @@ WIN10 Python3.7
 
 项目依赖环境</br>
 1、爬虫</br>
-	Requests库
+	Requests库</br>
 		pip install requests</br>
 2、GUI</br>
 	PyQt5
@@ -24,10 +24,10 @@ WIN10 Python3.7
 	docx
 		pip install python-docx
 	pypiwin32
-		pip install pypiwin32
+		pip install pypiwin32</br>
 3、可视化</br>
 	pyecharts
-		pip install pyecharts
+		pip install pyecharts</br>
 		
 项目代码结构简介</br>
 	Rind Ver 2.0---------------------------------------------------</br>
@@ -50,7 +50,7 @@ WIN10 Python3.7
 	实现柱状图统计劳模演员</br>
 	实现词云展示当年票房前列的电影</br>
 3、报表功能</br>
-	对于可视化生成的报表，可选择性加入报表，最后于桌面生成PDF文件
+	对于可视化生成的报表，可选择性加入报表，最后于桌面生成PDF文件</br>
 4、账号登录功能</br>
 	实现了账号注册与登录功能</br>
 	++++++实现了MD5加密保存用户密码++++++</br>
@@ -61,14 +61,14 @@ WIN10 Python3.7
 实现技术</br>
 1、爬虫</br>
 	使用requests库，模拟浏览器向猫眼服务器发送获取票房数据的请求，获取一个JSON后分析JSON获取电影信息。
-	使用内建的Sqlite3库，将获取的电影信息进行一定处理后输出到./SE12_Data/movie.db数据库文件中。
+	使用内建的Sqlite3库，将获取的电影信息进行一定处理后输出到./SE12_Data/movie.db数据库文件中。</br>
 2、可视化</br>
 	读取movie.db数据，根据需求进行数据处理
-	使用pyecharts库，生成需要的图表，以HTML的形式存储，输出到./SE12_Cache/文件夹中
+	使用pyecharts库，生成需要的图表，以HTML的形式存储，输出到./SE12_Cache/文件夹中</br>
 3、报表功能</br>
-	将用户选择的图表截图保存至./SE12_Cache/文件夹中，并放到一个docx文件中，最后在输出是转换为PDF文件保存在用户桌面
+	将用户选择的图表截图保存至./SE12_Cache/文件夹中，并放到一个docx文件中，最后在输出是转换为PDF文件保存在用户桌面</br>
 4、账号登录功能</br>
-	对用户的密码进行MD5加密存储，限制了非软件用户可使用的功能
+	对用户的密码进行MD5加密存储，限制了非软件用户可使用的功能</br>
 5、搜索功能</br>
 	对数据库进行模糊搜索</br>
 
